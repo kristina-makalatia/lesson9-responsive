@@ -1,0 +1,60 @@
+/*header styles*/
+.navigation {
+	display: flex;
+	justify-content: space-between;
+}
+.header-wraper {
+	background-color: lightgray;
+	padding: 30px;
+}
+.nav-ul {
+	display: flex;
+}
+li {
+	margin-right: 20px;
+}
+li:last-child {
+	margin-right: 0;
+}
+.burger {
+	color: #fff;
+	font-size: 30px;
+}
+.burger-icon {
+	display: none;
+}
+
+/* section#1 */
+.container {
+	max-width:1170px;
+	width: 100%;
+	margin: 0 auto;
+	background-color: yellow;
+	height: 450px;
+}
+.flex-wraper {
+	display: flex;
+	justify-content: space-between;
+	flex-wrap: wrap;
+}
+.box-1 {
+	width: 270px;
+}
+
+.box-1 img {
+	width: 100%;
+}
+
+
+/* icons */
+.fa-facebook {
+	color: blue;
+	font-size: 30px;
+}
+.youtube-icon {
+	color: red;
+	font-size: 30px;
+}
+.fa-facebook:hover {
+	color: yellow;
+}

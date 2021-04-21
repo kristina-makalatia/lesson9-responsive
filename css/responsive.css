@@ -1,0 +1,40 @@
+/* flex- direction example */
+/* @media (max-width:1125px) {
+	.flex-wraper {
+		flex-direction: column;
+		align-items: center;
+	}
+} */
+
+
+/* flex-wrap example */
+/* @media (max-width:540px) {
+	.flex-wraper {
+		justify-content: center;
+	}
+} */
+
+
+/* % - example */
+
+@media (max-width:950px) {
+	.box-1 {
+		width: 48%;
+	}
+	.container {
+		height: auto;
+	}
+}
+
+@media (max-width: 480px) {
+	.navigation-nav {
+		display: none;
+	}
+	.burger-icon {
+		display: block;
+	}
+
+	.box-1 {
+		width: 100%;
+	}
+}
